@@ -1,0 +1,78 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(to right, #67aeca , #675682);
+}
+
+.app {
+    width: 100%;
+    margin: 2% auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+.font {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+#search-bar {
+    height: 2em;
+    width: 20%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.gray {
+    background-color: #675682;
+    width: 50%;
+}
+
+.gif {
+    width: 500px;
+    max-width: 90%;
+    max-height: 400px;
+    margin: 2%;
+}
+
+.list {
+    height: 2em;
+    margin: 1em;
+    background-color: #e52a6f;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.left-list {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    transition: background-color 0.5s ease;
+}
+
+.right-list {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.left-list:hover, .right-list:hover {
+    background-color: #cc2663;
+}
+
+.top-border {
+    border-top-right-radius: 20px;
+}
+
+.bottom-border {
+    border-bottom-left-radius: 20px;
+}
