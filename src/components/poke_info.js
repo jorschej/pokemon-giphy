@@ -7,7 +7,7 @@ const PokeInfo = ({pokemon}) => {
     const name = pokemon.name.toUpperCase();
     const sprite = pokemon.sprites.front_default;
     return (
-            <div className="bottom-border gray font">
+            <div className="bottom-border gray font wrapper">
                 <p>#{pokemon.id}</p>
                 <img  alt={pokemon.id} src={sprite}/>
                 <div>{name}</div>

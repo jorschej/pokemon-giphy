@@ -11,7 +11,7 @@ const GifDisplay = ({gif}) => {
   
     const url = gif.data[0].images.original.url;
     return (
-        <div className="top-border gray">
+        <div className="top-border gray wrapper">
             <img className="gif" alt="pokemon" src={url} />
         </div>
     );
